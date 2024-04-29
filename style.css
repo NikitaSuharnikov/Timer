@@ -1,0 +1,106 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+width: 60%;
+height: 100%;
+margin: 0 auto;
+margin-top: 150px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.timer__block {
+  width: 150px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.hour {
+  background-color: #2987be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 150px;
+  font-size: 95px;
+}
+
+.minute {
+  background-color: #2987be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 150px;
+  font-size: 95px;
+}
+
+.second {
+  background-color: #2987be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 150px;
+  font-size: 95px;
+}
+
+.milisecond {
+  background-color: #2987be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 150px;
+  font-size: 95px;
+}
+
+.title {
+  background-color: #1059b8;
+  padding: 5px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.button {
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px;
+  width: 180px;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  &.start, &.stop {
+    color: #2987be;
+    &:hover {
+      background-color: #1059b8;
+      color: white;
+    }
+  }
+  &.clear {
+    &:hover{
+      background-color: #e03b8b;
+      color: white;
+    }
+  }
+}
